@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="First Suite" >
+<listeners>
+<listener class-name = "com.AutomationTalks.Utils.ListnersClass" />
+</listeners>
+
+<test name="Chrome Test" >
+<classes>
+<class name ="com.AutomationTalks.TestRunners.RunCucumberTest"></class>
+</classes> 
+</test>
+</suite>
